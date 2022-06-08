@@ -18,3 +18,16 @@ Me chame para revisarmos o código e começarmos um novo desafio
 
 #### Mal podemos esperar para ver o seu trabalho!
  
+## Para começar vamos criar uma branch
+
+###clonando o projeto: 
+
+git clone https://github.com/edufsantos/basic-form.git
+
+git checkout -b your-branch
+
+...começe a codar, após terminar
+
+git commit -m "descrição do commit"
+
+git push
