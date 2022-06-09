@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="login-box">
+        <h2>Login</h2>
+
+        <form class="input-data">
+            <label class="username" for="Username">Username</label>
+            <input class="enter-username" type="text" id="Username" name="Username" placeholder="Enter Username" >
+
+            <label class="password" for="Password">Password</label>
+            <input class="enter-password" type="password" id="Password" name="Password" placeholder="Enter Password" >
+
+            <input class="checkbox-password" type="checkbox" value="IsRememberMe" id="IsRememberMe">
+            <label class="text-remember" for="rememberMe">Remember Me</label>
+
+            <a href="#">
+                <input class="button-submit" type="button" value="Next" > <!-- Button or Submit ? -->
+            </a>
+        </form>
+
+    </div>
 </body>
 </html>
