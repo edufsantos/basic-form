@@ -9,7 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <div class="login-box">
@@ -22,14 +27,13 @@
             <label class="password" for="Password">Password</label>
             <input class="enter-password" type="password" id="Password" name="Password" placeholder="Enter Password" >
 
-            <input class="checkbox-password" type="checkbox" value="IsRememberMe" id="IsRememberMe">
-            <label class="text-remember" for="rememberMe">Remember Me</label>
+            <div class="check-and-remember-together">
+                <input class="checkbox-password" type="checkbox" value="IsRememberMe" id="IsRememberMe">
+                <label class="text-remember" for="rememberMe">Remember Me</label>
+            </div>
 
-            <a href="#">
-                <input class="button-submit" type="button" value="Next" > <!-- Button or Submit ? -->
-            </a>
+            <button type="submit">Next</button>
         </form>
-
     </div>
 </body>
 </html>
