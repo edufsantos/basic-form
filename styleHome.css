@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100%;
+}
+
+
+
+.classes {
+    background: #1188EE;
+}
+
+.header-content {
+    background: #17222D;
+}
+
+
+
+nav  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+
+.nav-praia {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+
+.nav-aulas {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 18px;
+
+}
+
+.nav-contato {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 18px;
+
+}
+
+.nav-matricula {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 18px;
+    text-decoration: underline #EE2211;
+    text-underline-offset: 0.3rem; 
+}
+
+nav div {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.classes {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+p {
+    margin-left: 1.5rem;
+}
+
+.imagem-text {
+    position: relative;
+    background-image: url("./images/background-header.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+h2 {
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 40px;
+    color: rgb(240, 235, 235);
+    left: 2rem;
+    font-size: 5rem;
+    
+}
+
+.box-together {
+    display: flex;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    box-shadow: 0px 5px 5px rgba(23, 34, 45, 0.4);
+    
+}
+
+input {
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+
+}
+
+
+button {
+    background: #EE2211;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+}
