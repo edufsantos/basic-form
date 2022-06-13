@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
 
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 100%;
 }
 
@@ -100,22 +100,30 @@ h2 {
     position: absolute;
     bottom: 1.5rem;
     right: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     box-shadow: 0px 5px 5px rgba(23, 34, 45, 0.4);
-    
 }
 
-input {
-    border-radius: 5px;
-    font-family: 'Nunito', sans-serif;
+.box-together input {
+    border-radius: 5px 0 0 5px;
     border: none;
-
+    padding: 0.7rem;
 }
 
 
-button {
+.box-together button {
     background: #EE2211;
-    border-radius: 5px;
-    font-family: 'Nunito', sans-serif;
+    border-radius: 0px 5px 5px 0px;
     border: none;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-together button span{
+  margin-left: 1rem;
 }
