@@ -34,22 +34,23 @@ nav  {
     transition: color 0.1s, background-color 0.1s;
 }
 
+
 .nav-praia {
     color: #fff;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-size: 18px;
 }
 
 .nav-aulas {
     color: #fff;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-size: 18px;
 
 }
 
 .nav-contato {
     color: #fff;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-size: 18px;
 
 }
@@ -147,7 +148,7 @@ h2 {
 .navegadores span {
     font-size: 9px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-right: calc(5rem - 4rem);
-    
+    margin-right: 1rem;
 }
