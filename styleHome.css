@@ -87,6 +87,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 3rem;
 }
 
 
@@ -152,3 +153,563 @@ h2 {
     align-items: center;
     margin-right: 1rem;
 }
+
+/* Terceira Parte a partir daqui  */
+
+.imagens-esquerda {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    
+    margin-left: 3rem;
+    margin-top: 1rem;
+    
+    
+
+}
+
+.imagens-esquerda .locale-imagens {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pranchas-surf {
+    display: flex;
+    flex-direction: column;
+    
+    width: 45vw; 
+    height: 100vh; 
+    object-fit: cover;
+    
+    
+}
+
+.local {
+    position: absolute;
+
+    bottom: -7.5rem;
+
+    width: 26.99rem; 
+    height: 15rem; 
+    object-fit: cover;
+    
+} 
+
+
+
+.section-two {
+    background-color: #EFF4F9;
+    float: none;
+    margin-top: 5rem;
+    
+}
+
+.section-two img {
+    width: 8px;
+
+}
+
+.imgem-ondas {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 43rem;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2rem;
+    color: #1188EE;
+    margin-top: 3rem;
+}
+
+
+.linha-1 {
+    text-decoration: underline rgb(127, 118, 118);
+    text-underline-offset: 0.5rem;
+    line-height: 80px;
+    
+}
+
+
+
+.texto {
+    display: flex;
+    font-size: 72px;
+    margin-bottom: 1.5rem;
+    
+}
+
+
+.texto p span{
+    color: #1188EE;
+    font-family: "Alice";
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.section-two button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: .5rem 1.5rem .5rem 1rem;
+    border: none;
+    cursor: pointer;
+    gap: 5rem;
+    background-color: #445566;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.section-two button:hover {
+    background-color: #37414d;
+    transition: color 0.1s, background-color 0.1s;
+    
+}
+
+
+
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.title-section-two-aulas {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding-top: 3rem;
+    text-transform: uppercase;
+    color: #445566;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 74px;
+    
+}
+
+.title-section-two {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #445566;
+    
+    
+}
+
+.parte-direita {
+    padding: 0 5%;
+
+}
+
+.parte-direita p {
+    margin: 0;
+    
+}
+
+.parte-direita .icones p {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #445566;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+.parte-direita .icones p img {
+    margin-right: 1rem;
+}
+
+
+.parte-direita .texto-2 {
+    margin-top: 3rem;
+}
+
+.parte-direita .texto-2 p {
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    color: #445566;
+}
+
+.plano-infantil {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 2rem 4rem 2rem 4rem;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 12px;
+    
+    
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.plano-adulto {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 2rem 4rem 2rem 4rem;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 12px;
+    
+}
+
+.plano-profissional {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 2rem 4rem 2rem 4rem;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 12px;
+}
+
+.planos p span {
+    font-size: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #445566;
+    
+}
+
+.trajeto {
+    margin-top: 11.30rem;
+    
+}
+
+.trajeto-descricao {
+    align-items: flex-start;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #99AABB;
+
+    margin-left: .1rem;
+    
+}
+
+.comoChego {
+    color: #17222D;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: .4rem;
+    
+}
+
+.trajeto-descricao b {
+    color: #17222D;
+    font-weight: 500;
+    
+}
+
+.mensagem-final {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.texto-pessoas {
+    color: #FF3726;
+    font-weight: bold;
+}
+
+.texto-contato {
+    text-decoration: underline #EE2211;
+    text-underline-offset: 0.2rem;
+    
+    
+}
+
+/* Quarta parte  */
+
+.section-three .texto-e-img {
+    background-image: url(./images/imagem-section-three.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 2rem; */
+}
+
+.texto-do-background {
+    color: #fff;
+
+}
+
+.texto-do-background h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    
+    font-size: 72px;
+    font-family: 'Alice';
+    font-weight: 500;
+    font-style: normal;
+
+    text-shadow: 2px 2px rgb(22, 20, 20);
+
+}
+
+.texto-do-background .p-do-background {
+    font-size: 19px;
+    padding-top: 2rem;
+    font-family: 'Alice';
+    font-weight: 500;
+    font-style: normal;
+
+    text-shadow: 1px 1px rgb(22, 20, 20);
+}
+
+.section-three .contato {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+
+    color: #445566;
+
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.inputs  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+
+}
+
+.inputs input {
+    gap: 20px;
+
+    height: 50px;
+    width: 470px;
+    margin-bottom: 30px;
+
+    background-color: #EFF4F9;
+
+    border: none;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+
+    outline-color: #44556648;
+
+    padding: 0 0 0 1rem;
+    
+}
+
+
+.inputs label {
+    height: 25px;
+
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+
+    color: #445566;
+
+}
+
+.inputs textarea {
+    padding: 1rem 1rem 8rem 1rem;
+    height: 50px;
+    width: 470px;
+    margin-bottom: 30px;
+    
+    background-color: #EFF4F9;
+
+    border: none;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+
+    outline-color: #44556648;
+
+    resize: none;
+}
+
+.inputs button {
+    display: flex;
+    
+    height: 30px;
+    width: 270px;
+    margin-bottom: 1rem;
+
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+
+    padding: 1rem 1rem 2.5rem 2rem;
+
+    background: #445566;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+    
+}
+
+.inputs button:hover {
+    background-color: #2e3b4b;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.inputs button .material-icons {
+    margin-left: 2rem;
+    
+    
+}
+
+/* --------------------------------- */
+
+.section-three-grid {
+    display: grid;
+    grid-template-columns: 8;    
+}
+
+
+.section-three-grid-item-2 {
+    color: #445566;
+    font-size: 20px;
+    grid-column-start: 3;
+
+}
+
+.section-three-grid-item-2 div {
+    margin-bottom: 20px;
+}
+
+.linha-vertical {
+    border-left: 1px solid #eee;
+    border: .1px solid #eee;
+    background-color: #eee;
+    width: 1%;
+    height: 95%;
+    
+
+}
+
+
+.section-three-grid-item-2 p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-three-grid-item-2 .endereco-texto {
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+
+}
+
+.section-three-grid-item-2 .linha-horizontal-1 {
+    border: .1px solid #eee;
+    padding-bottom: 1px;
+    background-color: #eee;
+    width: 60%;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.section-three-grid-item-2 .linha-horizontal-2 {
+    border: .1px solid #eee;
+    padding-bottom: 1px;
+    background-color: #eee;
+    width: 60%;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+
+.section-three-grid-item-2 .mapa {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.section-three-grid-item-2 span {
+    padding-left: .5rem;
+    color: #880f0f;
+    position: absolute;
+    width: 9.5px;
+    height: 10.01px;
+    font-weight: 600;
+}
+
+.section-three-grid-item-2 .cantato-texto {
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.section-three-grid-item-2 .horario-texto {
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+
+    background-color: #1188EE;
+    margin-top: 4rem;
+    padding: 4rem 2rem 1.5rem 3rem;
+    color: #fff;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    
+}
+
+.footer h1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer img {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+
