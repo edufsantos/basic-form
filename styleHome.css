@@ -611,6 +611,7 @@ h2 {
 
 .section-three-grid-item-2 div {
     margin-bottom: 20px;
+    margin-right: 2rem;
 }
 
 .linha-vertical {
@@ -623,6 +624,13 @@ h2 {
 
 }
 
+.section-three-grid-item-2 {
+    background-image: url(./images/icones/bg-icones.svg);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: right;
+    
+}
 
 .section-three-grid-item-2 p {
     font-size: 18px;
@@ -708,8 +716,4 @@ h2 {
     align-items: center;
 
 }
-
-
-
-
 
