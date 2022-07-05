@@ -109,7 +109,7 @@ nav div {
 .section {
     display: grid;
     grid-template-columns: 2.1fr 2fr;
-    grid-template-rows: 50vh 50vh;
+    grid-template-rows: 50vh 50vh 50vh;
 
 
 }
@@ -509,14 +509,15 @@ nav div {
 } 
 /* --------------------- footer ---------- */
 
-/* .footer {
+.footer {
     display: flex;
     justify-content: space-between;
+    
     
 
     background-color: #1188EE;
     margin-top: 4rem;
-    padding: 4rem 2rem 1.5rem 3rem;
+    padding: 4rem 2rem 2rem 3rem;
     color: #fff;
 
     font-family: 'Nunito';
@@ -525,6 +526,9 @@ nav div {
     font-size: 18px;
     line-height: 25px;
 
+    width: 100%;
+
+    margin-top: 10rem;
     
 }
 
@@ -538,5 +542,4 @@ nav div {
     display: flex;
     align-items: center;
 
-} */
-
+}
