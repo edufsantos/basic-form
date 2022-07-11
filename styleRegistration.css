@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+}
+
+/* Header ----------------------------------- */
+
+.classes {
+    background: #1188EE;
+}
+
+.header-content {
+    background: #17222D;
+}
+
+
+
+
+nav  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+
+.navegadores a:hover{
+    color: #a59f9f;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+
+.nav-praia {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 18px;
+}
+
+.nav-aulas {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 18px;
+
+}
+
+.nav-contato {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 18px;
+
+}
+
+.nav-matricula {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 18px;
+    text-decoration: underline #EE2211;
+    text-underline-offset: 0.3rem; 
+}
+
+nav div {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.classes {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.navegadores span {
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+/* ------------------------- */
+
+.texto-matricule-se h1 {
+    background-color: #EFF4F9;
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 500;
+
+    color: #445566;
+    
+}
+
+
+.section {
+    display: grid;
+    grid-template-columns: 2.1fr 2fr;
+    grid-template-rows: 50vh 50vh 50vh;
+
+
+}
+
+.div-esquerda {
+    padding-bottom: 85rem;
+    padding-left: 1rem;
+    
+    
+
+
+}
+
+.div-direita {
+    padding-bottom: 85rem;
+
+}
+
+
+.conteudo-dados-1 {
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+}
+
+.conteudo-dados-1 label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-bottom: .5rem;
+
+}
+
+.conteudo-dados-1 input {
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 26.99rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+    border: none;
+    border-radius: 3px;
+    
+    box-shadow: 0px 2px 2px 0px #BBCCDD66;
+
+    background-color: #EFF4F9;
+}
+
+.conteudo-dados-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    margin-left: 1rem;
+}
+
+.conteudo-dados-2 label {
+    display: flex;
+    flex-direction: row;
+
+    
+    padding-bottom: .5rem;
+}
+
+.conteudo-dados-2 input {
+    display: flex;
+    flex-direction: row;
+    
+    border: none;
+    border-radius: 3px;
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 5.3rem;
+
+    box-shadow: 0px 2px 2px 0px #BBCCDD66;
+
+    background-color: #EFF4F9;
+
+
+}
+
+.primeiro-dado-1 {
+    margin-bottom: 2rem;
+    
+}
+
+.primeiro-dado-2 {
+    margin-bottom: 2rem;
+}
+
+
+.forma-pagamento {
+    margin-left: 1rem;
+    color: #1188EE;
+}
+
+.forma-pagamento .linha-horizontal-pagamento {
+    border: .1px solid #eee;
+    padding-bottom: 1px;
+    background-color: #eee;
+    width: 89%;
+    margin-top: 1.80rem;
+}
+
+
+.checkbox-pagamento {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.checkbox-pagamento button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    border: none;
+
+    margin-right: 1px;
+}
+
+
+.checkbox-pagamento .buttom-1{
+    border-radius: .5rem 0rem 0rem .5rem; 
+    background-color: #BBCCDD;
+}
+
+.checkbox-pagamento .buttom-2{
+    border-radius: 0rem .5rem .5rem 0rem ;
+    background-color: #EFF4F9;
+}
+
+.linha-Nome-e-data {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.linha-Nome-e-data input {
+    margin-top: .5rem;
+}
+
+.linha-Nome-e-data input {
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 2px 2px 0px #BBCCDD66;
+    background-color: #EFF4F9;
+    
+}
+
+.um {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.um input {
+    padding: 1rem 3rem 1rem 1rem;
+
+}
+
+.dois label{
+    display: flex;
+    flex-direction: column;
+}
+
+.dois input{
+    padding: 1rem 2rem 1rem 1rem;
+    margin-right: 1rem;
+}
+
+.um-um {
+    max-width: 120px;
+    
+}
+
+.um-dois {
+    max-width: 120px;
+}
+
+
+.linha-numero-e-codigo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    
+
+    gap: 50px;
+
+
+}
+
+.linha-numero-e-codigo input {
+    border: none;
+    border-radius: 3px;
+
+    box-shadow: 0px 2px 2px 0px #BBCCDD66;
+    background-color: #EFF4F9;
+
+    padding: 1rem 3rem 1rem 1rem;
+    margin-top: .5rem;
+
+}
+
+.tres {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quatro {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.linha-horizontal-dois {
+
+    border: .1px solid #eee;
+    padding-bottom: 1px;
+    background-color: #eee;
+    width: 89%;
+    margin-top: 1.80rem;
+    margin-left: 1rem;
+    
+}
+
+
+.realizacao-matricula {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.realizacao-matricula button {
+    
+    background-color: #1188EE;
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 3rem 1rem 3rem;
+    color: #FFFFFF;
+
+
+    font-style: normal;
+    font-size: 18px;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.realizacao-matricula button:hover {
+    background-color: #0365bc;
+    transition: color 0.1s, background-color 0.1s;
+    cursor: pointer;
+
+}
+
+
+.seguranca img {
+    padding-right: .3rem;
+}
+
+/* ------------------------ */
+.div-direita .direita-background{
+    background-color: #EFF4F9;
+    position: absolute;
+
+    height: 80%;
+    width: 30%;
+
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+
+}
+
+.escolha-plano {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    font-family: 'Alice';
+    font-style: bold;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+
+.button-inputs {
+    display: flex;
+    border: none;
+    
+    margin-left: 3rem;
+    
+}
+
+.button-inputs-1 {
+    border: none;
+    background-color: #BBCCDD;
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+
+    margin-right: 0.8px;
+}
+
+
+
+.button-inputs-2 {
+    border: none;
+    background-color: #ffffff;
+    
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+
+    margin-right: 0.8px;
+}
+
+.button-inputs-3 {
+    border: none;
+    background-color: #ffffff;
+    padding-right: 1rem;
+
+    border-radius: 0rem 0.2rem 0.2rem 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    
+}
+
+.div-plano-infantil {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 2rem 5.5rem 2rem 5.3rem;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 12px;
+}
+
+.div-plano-infantil p span {
+    font-size: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #445566;
+
+    margin-top: .5rem;
+}
+
+
+.linha-1 {
+    text-decoration: underline rgb(127, 118, 118);
+    text-underline-offset: 0.5rem;
+    line-height: 80px;
+    
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2rem;
+    color: #1188EE;
+    margin-top: 3rem;
+}
+
+.primeiro-plano {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #445566;
+} 
+/* --------------------- footer ---------- */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+    background-color: #1188EE;
+    margin-top: 4rem;
+    padding: 4rem 2rem 2rem 3rem;
+    color: #fff;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    width: 100%;
+
+    margin-top: 10rem;
+    
+}
+
+.footer h1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer img {
+    display: flex;
+    align-items: center;
+
+}
